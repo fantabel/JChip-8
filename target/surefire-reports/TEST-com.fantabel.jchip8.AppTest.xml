@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.fantabel.jchip8.AppTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\SthJi11\code\JChip8\target\test-classes;c:\Users\SthJi11\code\JChip8\target\classes;C:\Users\SthJi11\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SthJi11\AppData\Local\Temp\ConsolePortableTemp\surefire7388744836079978712\surefirebooter1443706797169405430.jar C:\Users\SthJi11\AppData\Local\Temp\ConsolePortableTemp\surefire7388744836079978712 2018-04-20T14-41-53_124-jvmRun1 surefire7178523572716965775tmp surefire_07188174985449714545tmp"/>
+    <property name="surefire.test.class.path" value="c:\Users\SthJi11\code\JChip8\target\test-classes;c:\Users\SthJi11\code\JChip8\target\classes;C:\Users\SthJi11\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SthJi11"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="basedir" value="c:\Users\SthJi11\code\JChip8"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SthJi11\AppData\Local\Temp\ConsolePortableTemp\surefire7388744836079978712\surefirebooter1443706797169405430.jar"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="SthJi11"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SthJi11\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SthJi11\AppData\Local\Temp\ConsolePortableTemp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="c:\Users\SthJi11\code\JChip8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\program files\git\bin\;c:\program files\java\jdk1.8.0_151\bin;c:\Users\SthJi11\Programs\Neovim\bin;c:\Users\SthJi11\Programs\MinGW\git\usr\bin;c:\Users\SthJi11\Programs\MinGW\bin;c:\Users\SthJi11\bin;.;C:\Users\SthJi11\Programs\Git\local\bin;C:\Users\SthJi11\Programs\Git\mingw\bin;C:\Users\SthJi11\Programs\Git\bin;c:\Users\SthJi11\Programs\Console2\Data\scripts;c:\ProgramData\Oracle\Java\javapath;c:\oracl11gr2\product\11.2.0\client_1\bin;c:\ODS10gR2\bin;c:\ODS10gR2\jdk\jre\bin\classic;c:\ODS10gR2\jdk\jre\bin\client;c:\ODS10gR2\jlib;c:\ODS10gR2\jre\1.4.2\bin\client;c:\OraHome_1\jre\1.4.2\bin\client;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\IDM Computer Solutions\UltraEdit-32;c:\Program Files (x86)\Druide\Antidote 8\Programmes64\;c:\Program Files (x86)\Druide\Antidote 8\Programmes32\;c:\Program Files\TortoiseSVN\bin;c:\apache-maven-3.5.0\bin;c:\Program Files\Git\cmd;c:\Users\SthJi11\Programs\nodejs\;c:\Users\SthJi11\AppData\Local\Programs\Python\Launcher\;c:\Users\SthJi11\Programs\Shortcuts;c:\Users\SthJi11\Programs\Docker Toolbox;c:\Users\SthJi11\Programs\glassfish5\bin;c:\Users\SthJi11\Programs\glassfish5\glassfish\bin;c:\Users\SthJi11\Programs\asciidoc-8.6.9;c:\Users\SthJi11\AppData\Roaming\npm;c:\Users\SthJi11\Programs\maven\bin;c:\Users\SthJi11\Programs\python;c:\Users\SthJi11\Programs\python\Scripts;c:\Users\SthJi11\Programs\Vim\vim74;c:\Users\SthJi11\Programs\Doxygen\bin;c:\Users\SthJi11\Programs\glassfish411\glassfish4\bin;c:\Users\SthJi11\Programs\mysql-5.7.15\bin;c:\Users\SthJi11\Programs\texmfs\install\miktex\bin;c:\Users\SthJi11\Programs\cmake\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.fantabel.jchip8.AppTest" time="0.001"/>
+</testsuite>
