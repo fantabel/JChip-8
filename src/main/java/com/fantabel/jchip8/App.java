@@ -2,12 +2,15 @@ package com.fantabel.jchip8;
 
 import org.apache.commons.lang3.StringUtils;
 
+import com.fantabel.jchip8.cpu.Cpu;
+
 /**
  * Hello world!
  *
  */
 public class App {
     public static void main( String[] args ) {
-        System.out.println( "Hello World!" + args[0] + " " + StringUtils.isEmpty(args[0]) );
+		Cpu cpu = new Cpu();
+		cpu.dump();
     }
 }
