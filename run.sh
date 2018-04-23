@@ -1,1 +1,1 @@
-java -cp "target/*;target/lib/*" com.fantabel.jchip8.App $@
+java -cp "target/*:target/lib/*" com.fantabel.jchip8.App $@
