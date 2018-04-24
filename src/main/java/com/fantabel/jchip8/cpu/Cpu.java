@@ -3,29 +3,70 @@ package com.fantabel.jchip8.cpu;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Arrays;
+
 public class Cpu {
 	private static final Logger logger = LogManager.getLogger();
 	private byte[] registers;
 	private byte[] memory;
+	private boolean[] screen;
+	private short[] stack;
+	private boolean[] keys;
+
+	private short I;
+	private short programCounter;
+	private byte stackPointer;
+
+	private byte delayTimer;
+	private byte soundTimer;
 
 	private static final int NUMBER_OF_REGISTERS = 0x10;
 	private static final int MEMORY_LENGTH = 0x1000;
+	private static final int NUMBER_OF_KEYS = 0x10;
+	private static final int STACK_SIZE = 0x10;
+	private static final int SCREEN_WIDTH = 64;
+	private static final int SCREEN_HEIGHT = 32;
+	private static final int SCREEN_SIZE = SCREEN_WIDTH * SCREEN_HEIGHT;
 
 	public Cpu() {
 		logger.traceEntry();
+		init();
 		reset();
 		logger.traceExit();
+	}
+
+	private void init() {
+		registers = new byte[NUMBER_OF_REGISTERS];
+		memory = new byte[MEMORY_LENGTH];
+		keys = new boolean[NUMBER_OF_KEYS];
+		screen = new boolean[SCREEN_SIZE];
+		stack = new short[STACK_SIZE];
 	}
 
 	public void reset() {
 		logger.traceEntry();
 
 		logger.trace("Initializing registers");
-		registers = new byte[NUMBER_OF_REGISTERS];
-		Cpu.fillWithRandomData(registers);
+		Arrays.fill(registers, (byte)0);
+
 		logger.trace("Initializing memory");
-		memory = new byte[MEMORY_LENGTH];
-		Cpu.fillWithRandomData(memory);
+		Arrays.fill(memory, (byte)0);
+
+		logger.trace("Initializing keyboard");
+		Arrays.fill(keys, false);
+
+		logger.trace("Initializing screen");
+		Arrays.fill(screen, false);
+
+		logger.trace("Initializing stack");
+		Arrays.fill(stack, (short)0);
+
+		logger.trace("Initializing variables");
+		I = 0;
+		programCounter = 0x200;
+		stackPointer = 0;
+		delayTimer = 0;
+		soundTimer = 0;
 
 		logger.traceExit();
 	}

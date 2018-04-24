@@ -12,7 +12,7 @@ public class App {
 
 	    public static void main( String[] args ) {
 		Cpu cpu = new Cpu();
-		cpu.dump();
+//		cpu.dump();
 
 /*
 		for (int i = 0 ; i <= 255 ; i++)
