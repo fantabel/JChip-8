@@ -60,7 +60,7 @@ public class Cpu {
 		int i = 0;
 		StringBuilder sbTemp = new StringBuilder();
 		for (byte b : registers) {
-			sb.append("V" + String.format("%x", i++) + ": " + String.format("%8s", Integer.toBinaryString(b & 0xFF)).replace(' ', '0') + "\n");
+			sb.append("V" + String.format("%x", i++) + ": " + String.format("%8s", Integer.toBinaryString(b & 0xFF)).replace(' ', '0') + " " + String.format("%2s", Integer.toHexString(b & 0xFF)).replace(' ', '0').toUpperCase() + "\n");
 		}
 		return sb.toString();
 	}
